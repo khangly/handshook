@@ -1,0 +1,25 @@
+{
+  "valid": false,
+  "url": "your search string here",
+  "resume": 1234567890,
+  "transcript": 1234567890,
+  "date": "0",
+  "cookies": {
+    "_gcl_au": "cookie here",
+    "_mkto_trk": "cookie here",
+    "_fbp": "cookie here",
+    "__hstc": "cookie here",
+    "hubspotutk": "cookie here",
+    "fs_uid": "cookie here",
+    "__zlcmid": "cookie here",
+    "__hssrc": "cookie here",
+    "ajs_group_id": "cookie here",
+    "_ga": "cookie here",
+    "_gid": "cookie here",
+    "ajs_user_id": "cookie here",
+    "ajs_anonymous_id": "cookie here",
+    "production_js_on": "cookie here",
+    "production_auth_token": "cookie here",
+    "_trajectory_session": "cookie here"
+  }
+}
