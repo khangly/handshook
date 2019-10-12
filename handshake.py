@@ -138,6 +138,8 @@ def main():
     date = datetime.datetime.utcnow().isoformat()
     while not cookie_error and not see_old_jobs:
         jobs = session.get(configs["url"] + "&page=" + str(page), headers={"Host": HOST, "Accept": ACCEPT_GET}).json()
+        if "results" not in jobs:
+            break
         for job_data in jobs["results"]:
             job = Job(job_data)
             if configs["date"] > job.date:
