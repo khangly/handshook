@@ -2,7 +2,7 @@ import requests
 import json
 import datetime
 
-CONF_FILE = "conf2.json"
+CONF_FILE = "conf.json"
 JOBS_FILE = "jobs.csv"
 WAIT_FILE = "wait.json"
 LEN_CSRF = 88
